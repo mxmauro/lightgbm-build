@@ -28,7 +28,7 @@ done
 
 # Build projects
 saved_cwd=$(pwd)
-cd ../src
+cd src
 rm -r -f ../build/linux
 cmake -B ../build/linux/debug/project -S . -G "Unix Makefiles" \
 	-DUSE_DEBUG=ON \
